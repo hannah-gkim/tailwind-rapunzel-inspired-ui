@@ -2,8 +2,8 @@
 import React from "react";
 import Navbar from "@/components/Navbar/Navbar";
 import LandingMainBox from "./LandingMainBox";
-// import LandingLeftBox from "./LandingLeftBox";
-// import LandingRightBox from "./LandingRightBox";
+import LandingLeftBox from "./LandingLeftBox";
+import LandingRightBox from "./LandingRightBox";
 
 function LandingPage({ data }) {
   return (
@@ -11,8 +11,8 @@ function LandingPage({ data }) {
       <Navbar />
       <LandingMainBox />
       <div className="flex ">
-        {/* <LandingLeftBox data={data} />
-        <LandingRightBox data={data} /> */}
+        <LandingLeftBox data={data} />
+        <LandingRightBox data={data} />
       </div>
     </div>
   );

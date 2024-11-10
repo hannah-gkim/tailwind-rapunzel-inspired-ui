@@ -16,8 +16,8 @@ export default function Home() {
         />
       ))}
       <LandingPage data={data} />
-      {/* <PascalPage />
-      <Contact /> */}
+      {/* <PascalPage /> */}
+      {/* <Contact /> */}
     </main>
   );
 }
