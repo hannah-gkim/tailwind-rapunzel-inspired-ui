@@ -6,7 +6,7 @@ import WhiteContainer from "./WhiteContainer";
 
 function PascalPage({ data }) {
   return (
-    <WhiteContainer className="py-12" id="pascal">
+    <WhiteContainer className="pt-14" id="pascal">
       {/* top title  */}
       <div className="flex space-x-8 justify-between items-center">
         <p className="text-6xl">{data[5].name}</p>
@@ -26,8 +26,13 @@ function PascalPage({ data }) {
         </div>
       </div>
       {/* pascal images */}
-      <div className="flex space-x-5 h-[26rem] pt-6">
+      <div className="relative flex space-x-5 h-[26rem] pt-6">
         <div className="w-[20%]">
+          <div className="absolute w-[18.5%] flex flex-col items-center mt-5">
+            <h1 className="text-3xl text-white font-extrabold text-shadow-grey z-10 tracking-wide">
+              {data[0].name}
+            </h1>
+          </div>
           <Image
             src="/pascal-02.jpg"
             width={200}
@@ -44,8 +49,18 @@ function PascalPage({ data }) {
             alt="pascal-00"
             className="rounded-3xl h-[24rem] w-full"
           />
+          <div className="absolute w-[32.5%] flex flex-col items-center">
+            <h1 className="text-3xl text-white font-extrabold text-shadow-grey z-10 tracking-wide -mt-16">
+              {data[1].name}
+            </h1>
+          </div>
         </div>
         <div className="w-[25%]">
+          <div className="absolute w-[23.5%] flex flex-col items-center">
+            <h1 className="text-3xl text-white font-extrabold text-shadow-grey z-10 tracking-wide mt-4">
+              {data[2].name}
+            </h1>
+          </div>
           <Image
             src="/pascal-01.jpg"
             width={200}
@@ -54,7 +69,6 @@ function PascalPage({ data }) {
             className="rounded-3xl h-[24rem] w-full"
           />
         </div>
-
         <div className="w-[20%]">
           <Image
             src="/pascal-03.jpg"
@@ -63,6 +77,11 @@ function PascalPage({ data }) {
             alt="pascal-03"
             className="rounded-3xl h-[24rem] w-full"
           />
+          <div className="absolute w-[18%] flex flex-col items-center">
+            <h1 className="text-3xl text-white font-extrabold text-shadow-grey z-10 tracking-wide -mt-16">
+              {data[3].name}
+            </h1>
+          </div>
         </div>
       </div>
       {/* transparent pascal box */}
@@ -76,10 +95,10 @@ function PascalPage({ data }) {
         />
       </div>
       {/* text box */}
-      <div className="pb-14 flex flex-col items-center">
+      <div className="pb-28 flex flex-col items-center">
         <p className="w-[36rem]">{data[6].description}</p>
       </div>
-      <RapunzelPage />
+      <RapunzelPage data={data} />
     </WhiteContainer>
   );
 }
