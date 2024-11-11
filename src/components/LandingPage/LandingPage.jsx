@@ -4,17 +4,18 @@ import Navbar from "@/components/Navbar/Navbar";
 import LandingMainBox from "./LandingMainBox";
 import LandingLeftBox from "./LandingLeftBox";
 import LandingRightBox from "./LandingRightBox";
+import WhiteContainer from "../WhiteContainer";
 
 function LandingPage({ data }) {
   return (
-    <div className="relative bg-white rounded-3xl py-5 px-8 w-[60rem]">
+    <WhiteContainer>
       <Navbar />
       <LandingMainBox />
       <div className="flex ">
         <LandingLeftBox data={data} />
         <LandingRightBox data={data} />
       </div>
-    </div>
+    </WhiteContainer>
   );
 }
 

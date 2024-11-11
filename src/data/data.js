@@ -23,15 +23,15 @@ const data = [
   },
   {
     id: 5,
-    name: "Random5",
+    name: "Nunc",
     description:
       "Nunc vitae massa quis urna vulputate congue. Nam laoreet orci sit amet egestas ultrices.",
   },
   {
     id: 6,
-    name: "Random6",
+    name: "Aliquam",
     description:
-      "Aliquam lectus justo, pharetra sed consectetur sed, tristique sit amet mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec suscipit vel justo eget tempus. Vestibulum tristique tristique dictum. Aliquam quis euismod odio. Nulla elit nibh, dictum non justo non, gravida volutpat quam. Nam a libero accumsan, scelerisque diam nec, mollis felis. Integer turpis urna, vulputate volutpat rutrum sit amet, feugiat a ante.",
+      "Aliquam lectus justo, pharetra sed consectetur sed, tristique sit amet mi. Vestibulum ante ipsum primis in faucibus orci luctus.",
   },
   {
     id: 7,
