@@ -1,7 +1,7 @@
 import React from "react";
 import LandingPage from "@/components/LandingPage/LandingPage";
 import PascalPage from "../components/PascalPage";
-// import Contact from "@/components/Contact";
+import Contact from "@/components/Contact";
 import Lantern from "./Lantern";
 import data from "@/data/data";
 
@@ -17,7 +17,7 @@ export default function Home() {
       ))}
       <LandingPage data={data} />
       <PascalPage data={data} />
-      {/* <Contact /> */}
+      <Contact />
     </main>
   );
 }

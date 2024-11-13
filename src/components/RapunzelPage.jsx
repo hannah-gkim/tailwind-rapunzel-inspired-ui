@@ -73,7 +73,7 @@ function RapunzelPage({ data }) {
       </div>
       {/* text box */}
       <div className="py-14 flex flex-col items-center">
-        <p className="w-[36rem]">{data[6].description}</p>
+        <p className="w-[36rem]">{data[7].description}</p>
       </div>
     </div>
   );

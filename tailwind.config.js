@@ -26,21 +26,21 @@ module.exports = {
         },
       },
       // lantern start at my viewpoint
-      keyframes: {
-        floatUp: {
-          "0%": { transform: "translateY(0)", opacity: "0.8" }, // Start with more opacity (0.8)
-          "100%": { transform: "translateY(-100vh)", opacity: "0.1" }, // Fade out at the top
-        },
-      },
-      // lantern start at the very bottom of the screen
       // keyframes: {
       //   floatUp: {
-      //     "0%": { transform: "translateY(80vh)", opacity: "0.9" }, // Start far below the viewport
-      //     "100%": { transform: "translateY(-100vh)", opacity: "0.4" },
+      //     "0%": { transform: "translateY(0)", opacity: "0.8" }, // Start with more opacity (0.8)
+      //     "100%": { transform: "translateY(-100vh)", opacity: "0.1" }, // Fade out at the top
       //   },
       // },
+      // lantern start at the very bottom of the screen
+      keyframes: {
+        floatUp: {
+          "0%": { transform: "translateY(180vh)", opacity: "0.9" }, // Start far below the viewport
+          "100%": { transform: "translateY(-100vh)", opacity: "0.4" },
+        },
+      },
       animation: {
-        floatUp: "floatUp 20s ease-in-out infinite", // Adjust duration for floating effect
+        floatUp: "floatUp 24s ease-in-out infinite", // Adjust duration for floating effect
       },
     },
   },
