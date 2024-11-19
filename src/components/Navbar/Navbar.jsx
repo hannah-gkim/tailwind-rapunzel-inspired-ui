@@ -25,7 +25,7 @@ const Navbar = () => {
         <Image
           width={100}
           height={100}
-          src="/rapunzel-logo.gif"
+          src="./rapunzel-logo.gif"
           alt="rapunzel-logo"
           className="rounded-full bg-white hover:bg-lavender w-[2.5rem] p-1.5 sm:w-[2rem] sm:p-1 lg:w-[2.5rem] lg:p-1.5 md:w-[2rem] md:p-1 hidden sm:block"
         />

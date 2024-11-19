@@ -30,7 +30,7 @@ export default function Contact() {
           id="/"
           width={100}
           height={100}
-          src="/rapunzel-logo.gif"
+          src="./rapunzel-logo.gif"
           alt="landing-page"
           className="rounded-3xl bg-white hover:bg-lavender hover:bg-opacity-60 p-1.5 w-[8rem] lg:w-[8rem] md:w-[7rem] "
         />
