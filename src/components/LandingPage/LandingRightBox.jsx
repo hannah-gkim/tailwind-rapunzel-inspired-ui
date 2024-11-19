@@ -14,7 +14,7 @@ function LandingRightBox({ data }) {
         <div className="flex space-x-5">
           <div className="min-w-[4rem] max-w-[4rem] sm:min-w-[4rem] sm:max-w-[4rem] md:min-w-[4.5rem] md:max-w-[4.5rem] lg:min-w-[5rem] lg:max-w-[5rem]">
             <Image
-              src="/rapunzel-pascal-03.jpg"
+              src="./rapunzel-pascal-03.jpg"
               width={60}
               height={60}
               className="rounded-2xl w-full"
@@ -30,7 +30,7 @@ function LandingRightBox({ data }) {
         <div className="flex space-x-5">
           <div className="min-w-[4rem] max-w-[4rem] sm:min-w-[4rem] sm:max-w-[4rem] lg:min-w-[5rem] lg:max-w-[5rem] md:min-w-[4.5rem] md:max-w-[4.5rem]">
             <Image
-              src="/rapunzel-pascal-04.jpg"
+              src="./rapunzel-pascal-04.jpg"
               width={100}
               height={100}
               className="rounded-2xl w-full"
@@ -46,7 +46,7 @@ function LandingRightBox({ data }) {
         <div className="flex space-x-5">
           <div className="min-w-[4rem] max-w-[4rem] sm:min-w-[4rem] sm:max-w-[4rem] lg:min-w-[5rem] lg:max-w-[5rem] md:min-w-[4.5rem] md:max-w-[4.5rem]">
             <Image
-              src="/rapunzel-pascal-05.jpg"
+              src="./rapunzel-pascal-05.jpg"
               width={100}
               height={100}
               className="rounded-2xl w-full"

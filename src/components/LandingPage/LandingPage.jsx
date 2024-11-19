@@ -17,7 +17,7 @@ function LandingPage({ data }) {
         <div className="pt-[4rem] sm:pt-4 sm:blcok md:hidden space-y-4">
           <div className="w-[5rem] sm:w-[9rem]">
             <Image
-              src="/rapunzel-pascal-01.jpg"
+              src="./rapunzel-pascal-01.jpg"
               width={60}
               height={60}
               className="rounded-3xl w-full"
@@ -26,7 +26,7 @@ function LandingPage({ data }) {
           </div>
           <div className="w-[5rem] sm:w-[9rem]">
             <Image
-              src="/rapunzel-pascal-02.jpg"
+              src="./rapunzel-pascal-02.jpg"
               width={60}
               height={60}
               className="rounded-3xl w-full"

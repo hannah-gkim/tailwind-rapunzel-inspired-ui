@@ -40,7 +40,7 @@ function PascalPage({ data }) {
               </h1>
             </div>
             <Image
-              src="/pascal-02.jpg"
+              src="./pascal-02.jpg"
               width={200}
               height={200}
               alt="pascal-02"
@@ -50,7 +50,7 @@ function PascalPage({ data }) {
           {/* pascal 2 */}
           <div className="w-[62%]">
             <Image
-              src="/pascal-00.jpg"
+              src="./pascal-00.jpg"
               width={200}
               height={200}
               alt="pascal-00"
@@ -72,7 +72,7 @@ function PascalPage({ data }) {
               </h1>
             </div>
             <Image
-              src="/pascal-01.jpg"
+              src="./pascal-01.jpg"
               width={200}
               height={200}
               alt="pascal-01"
@@ -82,7 +82,7 @@ function PascalPage({ data }) {
           {/* pascal 4 */}
           <div className="w-[40%]">
             <Image
-              src="/pascal-03.jpg"
+              src="./pascal-03.jpg"
               width={200}
               height={200}
               alt="pascal-03"
@@ -99,7 +99,7 @@ function PascalPage({ data }) {
       {/* transparent pascal box */}
       <div className="flex flex-col items-center mt-[17rem] mb-[7rem] sm:mt-0 sm:mb-0 sm:pb-28 md:py-32">
         <Image
-          src="/pascal-transparent.jpg"
+          src="./pascal-transparent.jpg"
           width={100}
           height={100}
           alt="pascal-tansparent"

@@ -7,7 +7,7 @@ function RapunzelPage({ data }) {
       <div className="relative">
         <div>
           <Image
-            src="/rapunzel-00.jpg"
+            src="./rapunzel-00.jpg"
             width={200}
             height={200}
             className="rounded-3xl w-[56rem] h-[21rem] sm:h-auto"
@@ -26,7 +26,7 @@ function RapunzelPage({ data }) {
         <div className="relative flex">
           <div className="">
             <Image
-              src="/rapunzel-01.jpg"
+              src="./rapunzel-01.jpg"
               width={200}
               height={200}
               className="rounded-3xl  h-[18rem] sm:h-[28rem] md:h-[29.5rem] lg:h-[31.5rem]  min-w-[9rem] w-full"
@@ -43,7 +43,7 @@ function RapunzelPage({ data }) {
         <div className="relative space-y-3 sm:space-y-6">
           <div>
             <Image
-              src="/rapunzel-02.jpg"
+              src="./rapunzel-02.jpg"
               width={200}
               height={200}
               className="rounded-3xl w-[30rem] sm:w-[30rem] h-[8.6rem] sm:h-[13.3rem]  md:h-[14rem] lg:h-[15rem] "
@@ -57,7 +57,7 @@ function RapunzelPage({ data }) {
           </div>
           <div>
             <Image
-              src="/rapunzel-03.jpg"
+              src="./rapunzel-03.jpg"
               width={200}
               height={200}
               className="rounded-3xl h-[8.6rem]  sm:h-[13.3rem]  md:h-[14rem]  lg:h-[15rem] w-full"

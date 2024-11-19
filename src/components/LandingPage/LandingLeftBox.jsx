@@ -13,7 +13,7 @@ function LandingLeftBox({ data }) {
         <p className="text-lg md:text-base lg:text-lg">{data[0].description}</p>
         <div className="w-[11rem] sm:w-[8rem] md:w-[7rem] lg:w-[11rem]">
           <Image
-            src="/rapunzel-pascal-01.jpg"
+            src="./rapunzel-pascal-01.jpg"
             width={60}
             height={60}
             className="rounded-3xl w-full"
@@ -28,7 +28,7 @@ function LandingLeftBox({ data }) {
         </p>
         <div className="w-[9rem] md:w-[8rem] lg:w-[9rem]">
           <Image
-            src="/rapunzel-pascal-02.jpg"
+            src="./rapunzel-pascal-02.jpg"
             width={60}
             height={60}
             className="rounded-3xl w-full"

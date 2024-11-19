@@ -24,7 +24,7 @@ const Lantern = ({ delay, leftPosition }) => {
         <Image
           width={10}
           height={10}
-          src="/sun-mark.jpg" // Your brown sun mark image
+          src="./sun-mark.jpg" // Your brown sun mark image
           alt="Sun Mark"
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4 h-4" // Center the sun mark
         />

@@ -13,7 +13,7 @@ function LandingMainBox({}) {
       <Image
         width={100}
         height={100}
-        src="/rapunzel-pascal-00.jpg"
+        src="./rapunzel-pascal-00.jpg"
         alt="rapunzel-pascal-00"
         className="h-[14rem] w-auto rounded-3xl z-0 sm:h-[20rem] md:h-[18rem] lg:h-[24rem]"
       />
