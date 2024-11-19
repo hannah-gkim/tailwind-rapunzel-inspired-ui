@@ -17,7 +17,7 @@ function PascalPage({ data }) {
         </p>
         <div>
           <button
-            className="bg-lavender text-white rounded-3xl w-[7rem] text-lg md:w-[7.5rem] lg:w-[9rem] h-[2rem] md:text-xl hover:bg-opacity-50 transition duration-300 hover:text-lavender"
+            className="bg-lavender text-white rounded-3xl  w-[5.5rem] h-[1.5rem]  text-base  sm:text-lg  sm:w-[7rem] sm:h-[1.8rem] md:text-xl  md:h-[2rem] md:w-[7.5rem] lg:w-[9rem] hover:bg-opacity-50 transition duration-300 hover:text-lavender"
             onClick={() => {
               const element = document.getElementById("rapunzel");
               if (element) {
@@ -35,7 +35,7 @@ function PascalPage({ data }) {
           {/* pascal 1 */}
           <div className="w-[38%]">
             <div className="absolute w-[36%] sm:w-[17%] md:w-[17%] lg:w-[18%] flex flex-col items-center mt-2 sm:mt-3 md:mt-2 lg:mt-5">
-              <h1 className="text-white font-extrabold text-shadow-grey z-10 text-2xl sm:text-lg md:text-1.5xl lg:text-3xl">
+              <h1 className="text-white font-extrabold text-shadow-grey z-10 text-xl sm:text-lg md:text-1.5xl lg:text-3xl">
                 {data[0].name}
               </h1>
             </div>
@@ -57,7 +57,7 @@ function PascalPage({ data }) {
               className="rounded-3xl h-[16rem] lg:h-[24rem] md:h-[18rem] w-full"
             />
             <div className="absolute w-[58%] sm:w-[28%] md:w-[28%] lg:w-[29%] flex flex-col items-center">
-              <h1 className="text-white font-extrabold text-shadow-grey z-10 text-2xl sm:text-lg lg:text-3xl md:text-1.5xl -mt-10 sm:-mt-11 md:-mt-10 lg:-mt-16">
+              <h1 className="text-white font-extrabold text-shadow-grey z-10 text-xl sm:text-lg lg:text-3xl md:text-1.5xl -mt-10 sm:-mt-11 md:-mt-10 lg:-mt-16">
                 {data[1].name}
               </h1>
             </div>
@@ -67,7 +67,7 @@ function PascalPage({ data }) {
           {/* pascal 3 */}
           <div className="w-[60%]">
             <div className="absolute w-[57%] sm:w-[26%] md:w-[27%] lg:w-[29%] flex flex-col items-center">
-              <h1 className="text-white font-extrabold text-shadow-grey z-10 text-2xl sm:text-lg  lg:text-3xl md:text-1.5xl mt-2 sm:mt-3 md:mt-2 lg:mt-5">
+              <h1 className="text-white font-extrabold text-shadow-grey z-10 text-xl sm:text-lg  lg:text-3xl md:text-1.5xl mt-2 sm:mt-3 md:mt-2 lg:mt-5">
                 {data[2].name}
               </h1>
             </div>
@@ -89,7 +89,7 @@ function PascalPage({ data }) {
               className="rounded-3xl h-[16rem] lg:h-[24rem] md:h-[18rem] w-full"
             />
             <div className="absolute w-[38%] md:w-[18%] sm:w-[18%] md:w-[18%] lg:w-[18%] flex flex-col items-center">
-              <h1 className="text-white font-extrabold text-shadow-grey z-10 text-2xl sm:text-lg  lg:text-3xl md:text-1.5xl -mt-10 sm:-mt-11 md:-mt-10 lg:-mt-16">
+              <h1 className="text-white font-extrabold text-shadow-grey z-10 text-xl sm:text-lg  lg:text-3xl md:text-1.5xl -mt-10 sm:-mt-11 md:-mt-10 lg:-mt-16">
                 {data[3].name}
               </h1>
             </div>

@@ -14,8 +14,8 @@ function LandingPage({ data }) {
       <LandingMainBox />
       {/* landing left box in sm screens */}
       <div className="flex w-full">
-        <div className="pt-[1rem] sm:pt-4 sm:blcok md:hidden space-y-4">
-          <div className="w-[6rem] sm:w-[9rem]">
+        <div className="pt-[4rem] sm:pt-4 sm:blcok md:hidden space-y-4">
+          <div className="w-[5rem] sm:w-[9rem]">
             <Image
               src="/rapunzel-pascal-01.jpg"
               width={60}
@@ -24,7 +24,7 @@ function LandingPage({ data }) {
               alt="rapunzel-pascal-01"
             />
           </div>
-          <div className="w-[6rem] sm:w-[9rem]">
+          <div className="w-[5rem] sm:w-[9rem]">
             <Image
               src="/rapunzel-pascal-02.jpg"
               width={60}

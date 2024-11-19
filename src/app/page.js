@@ -7,8 +7,7 @@ import data from "@/data/data";
 
 export default function Home() {
   return (
-    // sm:bg-red-200 md:bg-blue-100 lg:bg-green-100
-    <main className="text-lavender flex flex-col justify-center items-center bg-lavender pb-4 space-y-4 pl-4 pr-4 sm:space-y-4 sm:pb-4 sm:pl-4 sm:pr-4 md:space-y-6 md:pb-6 md:pl-8 md:pr-8 lg:space-y-9 lg:pb-9 w-[100%] sm:bg-red-200 md:bg-blue-100 lg:bg-green-100">
+    <main className="text-lavender flex flex-col justify-center items-center bg-lavender pb-4 space-y-4 pl-4 pr-4 sm:space-y-4 sm:pb-4 sm:pl-4 sm:pr-4 md:space-y-6 md:pb-6 md:pl-8 md:pr-8 lg:space-y-9 lg:pb-9 w-[100%]">
       {[...Array(20)].map((_, i) => (
         <Lantern
           key={i}

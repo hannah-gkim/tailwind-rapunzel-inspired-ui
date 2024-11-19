@@ -14,7 +14,7 @@ const data = [
     id: 3,
     name: "Proin",
     description:
-      "Proin ac turpis lorem. Integer condimentum nisi enim, non laoreet est blandit vel. Mauris mi nisi.",
+      "Proin ac turpis lorem. Integer condimentum nisi enim, non laoreet est blandit vel. Mauris .",
   },
   {
     id: 4,
@@ -25,7 +25,7 @@ const data = [
     id: 5,
     name: "Nunc",
     description:
-      "Nunc vitae massa quis urna vulputate congue. Nam laoreet orci sit amet egestas ultrices.",
+      "Nunc vitae massa quis urna vulputate congue. Nam laoreet orci sit.",
   },
   {
     id: 6,

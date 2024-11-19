@@ -25,7 +25,7 @@ export default function Contact() {
   return (
     <WhiteContainer className="py-[3rem] flex" id="contact">
       {/* left box */}
-      <Link href={"/"} className="w-[20%]">
+      <Link href={"/"} className="w-[20%] flex flex-col justify-center">
         <Image
           id="/"
           width={100}
