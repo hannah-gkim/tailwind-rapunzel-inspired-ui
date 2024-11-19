@@ -57,7 +57,7 @@ function PascalPage({ data }) {
               className="rounded-3xl h-[16rem] lg:h-[24rem] md:h-[18rem] w-full"
             />
             <div className="absolute w-[58%] sm:w-[28%] md:w-[28%] lg:w-[29%] flex flex-col items-center">
-              <h1 className="text-white font-extrabold text-shadow-grey z-10 text-xl sm:text-lg lg:text-3xl md:text-1.5xl -mt-10 sm:-mt-11 md:-mt-10 lg:-mt-16">
+              <h1 className="text-white font-extrabold text-shadow-grey z-10 text-base sm:text-lg lg:text-3xl md:text-1.5xl -mt-10 sm:-mt-11 md:-mt-10 lg:-mt-16">
                 {data[1].name}
               </h1>
             </div>
